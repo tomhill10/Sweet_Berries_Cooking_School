@@ -1,0 +1,74 @@
+:root {
+    --color-background: #F5F3EF;
+    --color-card: #FFFFFF;
+    --color-accent: #FEBD2F;
+    --color-text-primary: #000000;
+    --color-text-secondary: #646464;
+    --color-outline: #DCDCDC;
+}
+
+* {
+
+    transition: 0.2s;
+}
+
+html {
+    width: 100%;
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--color-background);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: bold;
+}
+
+.p1 {
+    font-size: 24px;
+    font-family: "Roboto", Arial;
+    font-weight: 300;
+    color: var(--color-text-secondary);
+}
+
+.p2 {
+    font-size: 18px;
+    font-family: "Roboto", Arial;
+    font-weight: 300;
+}
+
+.button-1 {
+    font-size: 18px;
+    font-family: "Roboto", Arial;
+    font-weight: 400;
+}
+
+.button-2 {
+    font-size: 16px;
+    font-family: "Roboto", Arial;
+    font-weight: 400;
+}
