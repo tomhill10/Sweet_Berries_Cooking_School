@@ -72,3 +72,7 @@ h3 {
     font-family: "Roboto", Arial;
     font-weight: 400;
 }
+
+.mobile-nav-bar-container {
+    display: none;
+}
