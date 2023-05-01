@@ -7,6 +7,18 @@
     background-color: var(--color-background);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.header-wrapper {
+    width: 100%;
+    max-width: 1550px;
+    max-height: 100px;
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
